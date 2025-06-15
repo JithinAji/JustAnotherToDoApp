@@ -1,0 +1,31 @@
+.add-todo {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.add-todo input {
+  flex: 1;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.add-todo input:focus {
+  outline: none;
+  border-color: #4e91fc;
+}
+
+.add-todo button {
+  padding: 8px 16px;
+  background: #4e91fc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-todo button:hover {
+  background: #357ae8;
+}

@@ -1,0 +1,33 @@
+.import-export {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.import-export button,
+.import-export .import-label span {
+  background-color: #e0f2ff;
+  color: #1a202c;
+  border: none;
+  padding: 8px 16px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  display: inline-flex;
+  align-items: center; /* This is key */
+  justify-content: center;
+  line-height: 1;
+}
+
+.import-export button:hover,
+.import-export .import-label span:hover {
+  background-color: #bae6fd;
+  transform: translateY(-1px);
+}
+
+.import-export input[type="file"] {
+  display: none;
+}
