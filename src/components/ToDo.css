@@ -36,3 +36,7 @@
   color: #888;
   font-style: italic;
 }
+
+.todo-input {
+  min-width: 396px;
+}
