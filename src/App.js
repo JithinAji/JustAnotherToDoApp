@@ -61,7 +61,7 @@ function App() {
 
   return (
     <div>
-      <h1>Just Another ToDo app</h1>
+      <h1>Just Another To Do App</h1>
       <AddToDo onAdd={addToDo} />
       {toDos &&
         Object.entries(toDos).map(([id, todo]) => (
